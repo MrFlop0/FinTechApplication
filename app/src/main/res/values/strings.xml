@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">FinTechApplication</string>
+    <string name="template_name">Template Name</string>
+    <string name="template_genre">Template Genre</string>
+    <string name="popular_tag">Популярное</string>
+    <string name="favorite">Избранное</string>
+    <string name="movie_page_genre">Жанры:</string>
+    <string name="movie_page_country">Страна:</string>
+    <string name="Country">Страна:</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="favorite_tag">Избранное</string>
+    <string name="error_message">Произошла ошибка при загрузке данных,проверьте подключение к сети</string>
+    <string name="retry">Повторить</string>
+</resources>

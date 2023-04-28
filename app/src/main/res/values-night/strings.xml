@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="template_name">Template Name</string>
+    <string name="template_genre">Template Genre</string>
+    <string name="movie_page_country">Страна:</string>
+    <string name="Country">Страна:</string>
+</resources>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/main_background">
+
+
+
+        <ImageView
+            android:id="@+id/Preview"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/example_"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.69" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:padding="5dp"
+            app:layout_constraintTop_toBottomOf="@+id/Preview">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:text="The Matrix"
+                android:textAlignment="center"
+                android:textColor="@color/main_text_color"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/desc"
+                android:layout_margin="5dp"
+                style="@style/DescriptionText"
+                android:text="Стэнли арестован по ложному обвинению в краже кроссовок и отправлен в трудовой лагерь, расположенный в техасской пустыне. Воспитатели «закаляют характер» подростков странным наказанием. Ребята копают ямы в иссушенной земле, но не знают, что их на самом деле используют для раскопок таинственного клада. Однако Стэнли удается раскрыть загадочную связь между сокровищами и проклятием, тяготеющим долгие годы над его семьей…" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/Genre"
+                    style="@style/DescriptionText"
+                    android:text="@string/movie_page_genre"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/genres"
+                    style="@style/DescriptionText"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@id/Genre"
+                    android:text=":jgf {eq pfkegf " />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/Country"
+                    style="@style/DescriptionText"
+                    android:text="@string/Country"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/countries"
+                    style="@style/DescriptionText"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@id/Country"
+                    android:text="Намибия" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
